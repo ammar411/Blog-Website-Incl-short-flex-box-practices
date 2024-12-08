@@ -1,0 +1,73 @@
+ body{
+  font-family: sans-serif;
+  line-height: 1.6;
+  border: solid black ;
+  margin-top: auto;
+  margin-block-end: auto;
+  /* float: right; */
+ 
+ }
+
+.product-info{
+/* 825-8-250-80= */
+width: 243px;
+
+margin : right 40px;
+padding-top: 20px;
+}
+
+.product-image{
+  float: left;
+  margin: right 40px;
+}
+
+
+.product-details{
+  margin:auto;
+
+}
+
+
+a:hover {
+  color: orangered;
+   font-weight: bold; 
+}
+.shipping{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+   
+  margin-top: 8px;
+}
+.chrg{
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+.butt:hover {
+   color:blue ;
+   font-weight: bolder;
+   cursor: pointer;
+   text-transform: uppercase;
+   background-color: black;
+}
+.details-title {
+ clear: both;
+}
+.details-lists{
+  list-style: square;
+}
+/* nav{
+  float: left;
+}
+div {
+  float: right;
+} */
+
+.product.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
